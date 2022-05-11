@@ -8,8 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NoActivity">
-
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".second"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -19,7 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name=".otherpage">
 
+        </activity>
+        <activity android:name=".database">
+
+        </activity>
+    </application>
 
 </manifest>
